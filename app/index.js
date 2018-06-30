@@ -8,8 +8,8 @@ const server = Hapi.server({
 /**
  * @api {get} /sample get protocol docs
  * @apiName GetDetails
- * @apiSuccess (Success_200) {Object} requestHeaders the request headers sent
- * @apiSuccess (Success_200) {String} data test text
+ * @apiSuccess (Success_200) {Object} requestHeaders
+ * @apiSuccess (Success_200) {String} data text
  * @apiSuccess (Session) {String} kbsampleprovidej-account-id testing the dependency headers
  */
 server.route({
